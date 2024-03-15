@@ -4,25 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Natureza</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Bem-vindo de volta</h2>
-    <h1>Faça login na sua conta</h1>
-    <form action="cadastro">
-        <label for="iEmail">E-mail</label>
-        <input type="email" name="email" id="iEmail" required="" placeholder="exemplo@gmail.com">
-        
-        <label for="iSenha">Senha</label>
-        <input type="password" name="senha" id="iSenha" required="" minlength="8" placeholder="0123456789">
+    <div class="body-container">
+        <div class="imagem-container">
 
-        <input type="radio" name="lembrar" id="iLembrar">
-        <p><span>Esqueceu sua senha?</span></p>
-        
-        <button>Entrar na conta</button>
-        <button>Ou faça login com o Google</button>
-
-        <p>Não tem uma conta? <span>Cadastre-se</span></p>
-    </form>
-
+        </div>
+        <div class="form-container">
+            <h2>Bem-vindo de volta</h2>
+            <h1>Faça login na sua conta</h1>
+            <form class="formulario" action="cadastro">
+                <div class="dados">
+                    <label for="iEmail">E-mail</label>
+                    <input type="email" name="email" id="iEmail" required="" placeholder="exemplo@gmail.com">
+                </div>
+                <div class="dados">
+                    <label for="iSenha">Senha</label>
+                    <input type="password" name="senha" id="iSenha" required="" minlength="8" placeholder="0123456789">
+                </div>
+                <label for="iLembrar">Lembre de mim</label>
+                <input type="radio" name="lembrar" id="iLembrar">
+                <p><span>Esqueceu sua senha?</span></p>
+            
+                <button>Entrar na conta</button>
+                <button>Ou faça login com o Google</button>
+                <p>Não tem uma conta? <span>Cadastre-se</span></p>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
