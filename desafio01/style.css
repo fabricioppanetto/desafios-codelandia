@@ -1,71 +1,31 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Lexend Deca";
+    font-family: "";
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #121214;
 }
 
 .header-bg {
-    background-image: linear-gradient(to right,#574ae8, #3ea1db);
-    color: white;
+    background-color: #17171A;
 }
 
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 30px 0px;
-    box-sizing: border-box;
+.main-bg {
+    
 }
 
-.header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+span {
+    color: #E07B67;
 }
 
-h1 {
-    font-size: 2rem;
-    font-weight: 100;
-    line-height: 30px;
+p {
+    color: #AFABB6;
 }
 
-input {
-    width: 860px;
-    border-radius: 5px;
-    border: none;
-    padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.5);
-    margin-top: 73px;
-    color: white;
-}
-
-.conteudo-bg {
-    background-color: #f3f5f7;
-    padding: 50px 0px;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 50px;
-}
-
-.conteudo {
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 0px 0px 10px 0px #13131f15;
-    padding: 24px 30px;
-}
-
-.conteudo span {
-    color: #717171;
-    font-size: 1rem;
-}
-
-.conteudo h2 {
-    margin-top: 24px;
-    font-size: 1.625rem;
-    color: #1A202C;
-}
-
-.conteudo p {
-    margin-top: 12px;
-    font-size: 1.125rem;
-    color: #717171;
+h1, h2 {
+    color: #fff;
 }
