@@ -5,6 +5,7 @@
 }
 
 body {
+    box-sizing: border-box;
     height: 100vh;
     width: 100vw;
     background-color: #121214;
@@ -15,7 +16,7 @@ body {
 }
 
 .main-bg {
-    
+
 }
 
 span {
