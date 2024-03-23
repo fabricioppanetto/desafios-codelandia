@@ -79,4 +79,12 @@ h2 {
     font-size: 1.125rem;
 }
 
+@media (max-width: 800px) {
 
+    .tela {
+        grid-template-columns: 1fr;
+    }
+    .img-container {
+        display: none;
+    }
+}
