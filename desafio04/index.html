@@ -3,35 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Natureza</title>
+    <title>Desafio 04 - Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="body-container">
-        <div class="imagem-container">
-
+    <main class="tela">
+        <div class="img-container">
+            <img src="img/undraw_connected_world_wuay.svg" alt="">
         </div>
-        <div class="form-container">
+        <div class="login-container">
             <h2>Bem-vindo de volta</h2>
             <h1>Faça login na sua conta</h1>
-            <form class="formulario" action="cadastro">
-                <div class="dados">
-                    <label for="iEmail">E-mail</label>
-                    <input type="email" name="email" id="iEmail" required="" placeholder="exemplo@gmail.com">
-                </div>
-                <div class="dados">
-                    <label for="iSenha">Senha</label>
-                    <input type="password" name="senha" id="iSenha" required="" minlength="8" placeholder="0123456789">
-                </div>
-                <label for="iLembrar">Lembre de mim</label>
-                <input type="radio" name="lembrar" id="iLembrar">
-                <p><span>Esqueceu sua senha?</span></p>
-            
-                <button>Entrar na conta</button>
-                <button>Ou faça login com o Google</button>
-                <p>Não tem uma conta? <span>Cadastre-se</span></p>
+            <form class="formulario" action="formulario" method="get">
+                <section class="form-dados">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="exemplo@gmail.com">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="0123456789">
+                </section>
+                <section class="ajuda">
+                    <input type="radio" name="lembrar" id="lembrar">
+                    <label for="lembrar">Lembre de mim</label>
+                    <a href="index.html">Esqueceu sua senha?</a>
+                </section>
+                <section class="botao">
+                    <button>Entrar na conta</button>
+                    <button>Ou faça login com o Google</button>
+                </section>
+                <section class="criar-conta">
+                    <p>Não tem uma conta? <span>Cadastre-se</span></p>
+                </section>
             </form>
         </div>
-    </div>
+    </main>
 </body>
 </html>
