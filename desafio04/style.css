@@ -41,17 +41,44 @@ img {
 h1 {
     font-size: 2rem;
     font-weight: 600;
+    margin-bottom: 40px;
 }
 
 h2 {
     font-size: 1.25rem;
     font-weight: 500;
+    margin-bottom: 12px;
 }
 
 .form-dados {
     display: grid;
     grid-template-columns: 1fr;
 }
+
+label {
+    font-size: 1.125rem;
+    margin-bottom: 12px;
+}
+
+input {
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+input::placeholder {
+    font-size: 1rem;
+}
+
+.ajuda {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ajuda a {
+    text-decoration: none;
+    color: #6C63FF;
+}
+
 
 .botao {
     display: grid;
@@ -77,6 +104,24 @@ h2 {
     border-radius: 4px;
     font-weight: 600;
     font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.login-google img {
+    max-width: 20px;
+
+}
+
+.criar-conta {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.criar-conta span {
+    color: #6C63FF;
 }
 
 @media (max-width: 800px) {
